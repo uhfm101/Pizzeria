@@ -14,7 +14,10 @@
 <div class = "center">
 <div class = "container">
     <div class = "content">
-        <h1> Tony's </h1>
+        <div class = "row">
+        <h1 style = "font-style: italic"> Tony's </h1>
+        <img class = "pic" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8jyK9THXVXsZ_veKPYJv1Wc5Por1MNqCB_A&usqp=CAU">
+    </div>
         <form>
             <div class = "row">
                 <fieldset>
@@ -33,15 +36,62 @@
             </div>
 
             <div class = "row">
+                <fieldset>
+                    <legend>Sauces:</legend>
+                    <div>
+                        <input type = "radio" id = "tomato" name = "sauce">
+                        <label for = "tomato">Tomato</label>
+                    </div>
+                <div>
+                    <input type = "radio" id = "pesto" name = "sauce">
+                    <label for = "pesto">Pesto</label>
+                </div>
+                <div>
+                    <input type = "radio" id = "garlicwhite" name = "sauce">
+                    <label for = "garlicwhite">Garlic white</label>
+                </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Sizes:</legend>
+                <div>
+                    <input type = "radio" id = "small" name = "size">
+                    <label for = "small">Small</label>
+                </div>
+                <div>
+                    <input type = "radio" id = "medium" name = "size">
+                    <label for = "medium">Medium</label>
+                </div>
+                <div>
+                    <input type = "radio" id = "large" name = "size">
+                    <label for = "large">Large</label>
+                </div>
+                </fieldset>
+            </div>
+
+            <fieldset>
+                <legend>Toppings</legend>
+            <div>
+            <input type = "checkbox" id = "pepperoni" name = "pepperoni" value = "pepperoni">
+            <label for = "pepperoni">Pepperoni</label>
+        </div>
+            <div>
+                <input type = "checkbox" id = "sausage" name = "sausage" value = "sausage">
+                <label for = "sausage">Sausage</label>
+            </div>
+            <div>
+                <input type = "checkbox" id = "mushroom" name = "mushroom" value = "mushroom">
+                <label for = "mushroom">Mushrooms</label>
+            </div>
+            </fieldset>
 
             <fieldset>
                 <legend>Special:</legend>
                 <div>
                     <label for = "specialRequests">Special requests</label>
-                    <textarea id = "specialRequests" name = "specialRequests" rows = "4" cols = "10" placeholder = "Allergic to peanuts, substitutions, etc."></textarea>
+                    <textarea id = "specialRequests" name = "specialRequests" rows = "4" cols = "10" placeholder = "Allergic to garlic, substitutions, etc."></textarea>
                 </div>
         </form>
-    </div>
     </div>
 </div>
 </body>
