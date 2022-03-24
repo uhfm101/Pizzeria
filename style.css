@@ -32,11 +32,12 @@ input[type="text"], textarea, select{
     color: #374151;
 }
 fieldset{
-    border: 1px solid #d1d5db;
-    border-radius: 6px;
+    border: 4px solid #d1d5db;
+    border-radius: 8px;
     width: fit-content;
     margin-bottom: 16px;
     padding: 12px;
+    border-color: darkolivegreen;
 }
 
 
@@ -71,7 +72,7 @@ section header{
 .container{
     max-width: 1300px;
     margin: 0 auto;
-    background: darkolivegreen;
+    background-color: darkolivegreen;
 }
 
 .content{

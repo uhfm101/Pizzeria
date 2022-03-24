@@ -31,6 +31,8 @@
                         <input id = "lastname" name = "last_name" type = "text">
                     </div>
                     <div>
+                        <label for = "adress">Address</label>
+                        <input id = "adress" name = "adress" type = "text">
                     </div>
                 </fieldset>
             </div>
@@ -86,11 +88,28 @@
             </fieldset>
 
             <fieldset>
+                <legend>Types</legend>
+            <div>
+                <label for = "container">Please Choose One</label>
+                <select name = "container" id = "container">
+                    <option value = "neopolitan">Neopolitan</option>
+                    <option value = "chicago">Chicago</option>
+                    <option value = "nystyle">New-York style</option>
+                    <option value = "sicilian">Sicilian</option>
+                </select>
+            </div>
+            </fieldset>
+
+            <fieldset>
                 <legend>Special:</legend>
                 <div>
                     <label for = "specialRequests">Special requests</label>
                     <textarea id = "specialRequests" name = "specialRequests" rows = "4" cols = "10" placeholder = "Allergic to garlic, substitutions, etc."></textarea>
                 </div>
+                </fieldset>
+
+                <button type = "button" onclick = "alert('Free today for our Grand Opening!')">Calculate Cost</button>
+                <button type = "submit">Submit order</button>
         </form>
     </div>
 </div>
